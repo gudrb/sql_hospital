@@ -1,0 +1,172 @@
+﻿  소스.cpp
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(58): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(108): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(93): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(95): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(97): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(99): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(101): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(106): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(114): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(84): warning C4101: 'qry_' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(80): warning C4101: 'row_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(80): warning C4101: 'cloum_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(136): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(169): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(177): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(197): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(162): warning C4101: 'ch' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(243): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(261): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(239): warning C4101: 'qry2' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(234): warning C4101: 'row_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(238): warning C4101: 'ch' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(234): warning C4101: 'cloum_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(279): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(287): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(277): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(296): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(274): warning C4101: 'ID' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(314): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(322): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(312): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(331): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(309): warning C4101: 'ID' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(348): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(356): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(365): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(343): warning C4101: 'ID' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(382): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(380): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(399): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(376): warning C4101: 'row_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(376): warning C4101: 'cloum_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(377): warning C4101: 'ID' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(416): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(414): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(433): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(410): warning C4101: 'row_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(410): warning C4101: 'cloum_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(411): warning C4101: 'ID' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(454): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(471): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(477): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(449): warning C4101: 'qry2' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(443): warning C4101: 'row_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(443): warning C4101: 'cloum_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(494): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(502): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(492): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(516): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(487): warning C4101: 'ch' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(559): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(547): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(550): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(557): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(565): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(530): warning C4101: 'row_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(530): warning C4101: 'cloum_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(582): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(590): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(580): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(598): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(615): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(623): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(613): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(631): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(668): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(657): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(660): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(666): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(674): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(645): warning C4101: 'qry_' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(708): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(696): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(699): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(701): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(706): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(714): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(684): warning C4101: 'qry_' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(731): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(739): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(729): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(748): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(771): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(779): warning C4244: '=': 'my_ulonglong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(769): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(793): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(763): warning C4101: 'ch' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(830): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(819): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(822): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(829): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(836): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(811): warning C4101: 'qry_' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(867): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(856): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(859): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(866): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(873): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(848): warning C4101: 'qry_' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(844): warning C4101: 'row_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(844): warning C4101: 'cloum_length' :참조되지 않은 지역 변수입니다.
+c:\users\조성재\documents\visual studio 2017\projects\consoleapplication1\consoleapplication1\소스.cpp(897): warning C4267: '인수': 'size_t'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ConsoleApplication1.vcxproj -> C:\Users\조성재\Documents\Visual Studio 2017\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\조성재\Documents\Visual Studio 2017\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.pdb (Partial PDB)

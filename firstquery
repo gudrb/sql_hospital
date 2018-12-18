@@ -1,0 +1,104 @@
+-- MySQL dump 10.13  Distrib 5.6.36, for Win64 (x86_64)
+--
+-- Host: localhost    Database: cheil_hospital
+-- ------------------------------------------------------
+-- Server version	5.6.36-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `department`
+--
+
+DROP TABLE IF EXISTS `department`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `department` (
+  `dept_name` varchar(20) NOT NULL DEFAULT '',
+  `budget` int(11) DEFAULT NULL,
+  PRIMARY KEY (`dept_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `department`
+--
+
+LOCK TABLES `department` WRITE;
+/*!40000 ALTER TABLE `department` DISABLE KEYS */;
+INSERT INTO `department` VALUES ('dentistry',110000),('genral surgery',120000),('internal medicine',100000);
+/*!40000 ALTER TABLE `department` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `doctor`
+--
+
+DROP TABLE IF EXISTS `doctor`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `doctor` (
+  `doctor_ID` int(11) NOT NULL DEFAULT '0',
+  `D_name` varchar(20) DEFAULT NULL,
+  `salary` int(11) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `dept_name` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`doctor_ID`),
+  KEY `dept_name` (`dept_name`),
+  CONSTRAINT `doctor_ibfk_1` FOREIGN KEY (`dept_name`) REFERENCES `department` (`dept_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `doctor`
+--
+
+LOCK TABLES `doctor` WRITE;
+/*!40000 ALTER TABLE `doctor` DISABLE KEYS */;
+INSERT INTO `doctor` VALUES (2013112047,'easyhyun',7500,23,'genral surgery'),(2013112048,'kimhyounggyu',6700,24,'dentistry'),(2013112049,'kimshyoungguk',6700,24,'dentistry'),(2013112050,'kimhyounsu',6700,24,'dentistry'),(2013112075,'u syhun',7000,28,'internal medicine');
+/*!40000 ALTER TABLE `doctor` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `hospital_room`
+--
+
+DROP TABLE IF EXISTS `hospital_room`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `hospital_room` (
+  `room_num` int(11) NOT NULL DEFAULT '0',
+  `building` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`room_num`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `hospital_room`
+--
+
+LOCK TABLES `hospital_room` WRITE;
+/*!40000 ALTER TABLE `hospital_room` DISABLE KEYS */;
+INSERT INTO `hospital_room` VALUES (101,'101동'),(102,'101동'),(201,'102동'),(202,'102동');
+/*!40000 ALTER TABLE `hospital_room` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-05-30 23:17:41

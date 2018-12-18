@@ -1,0 +1,233 @@
+-- MySQL dump 10.13  Distrib 5.7.18, for Win64 (x86_64)
+--
+-- Host: localhost    Database: cheil_hospital
+-- ------------------------------------------------------
+-- Server version	5.7.18-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `assigned_room`
+--
+
+DROP TABLE IF EXISTS `assigned_room`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `assigned_room` (
+  `start_date` int(11) DEFAULT NULL,
+  `end_date` int(11) DEFAULT NULL,
+  `patient_ID` int(11) DEFAULT NULL,
+  `room_num` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `assigned_room`
+--
+
+LOCK TABLES `assigned_room` WRITE;
+/*!40000 ALTER TABLE `assigned_room` DISABLE KEYS */;
+INSERT INTO `assigned_room` VALUES (608,708,1012112075,101),(1231,1111,1111111111,101);
+/*!40000 ALTER TABLE `assigned_room` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `department`
+--
+
+DROP TABLE IF EXISTS `department`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `department` (
+  `dept_name` varchar(20) NOT NULL,
+  `budget` int(11) DEFAULT NULL,
+  PRIMARY KEY (`dept_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `department`
+--
+
+LOCK TABLES `department` WRITE;
+/*!40000 ALTER TABLE `department` DISABLE KEYS */;
+INSERT INTO `department` VALUES ('dentistry',110000),('genral surgery',120000),('internal medicine',100000);
+/*!40000 ALTER TABLE `department` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `doctor`
+--
+
+DROP TABLE IF EXISTS `doctor`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `doctor` (
+  `doctor_ID` int(11) NOT NULL,
+  `D_name` varchar(20) DEFAULT NULL,
+  `salary` int(11) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `dept_name` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`doctor_ID`),
+  KEY `dept_name` (`dept_name`),
+  CONSTRAINT `doctor_ibfk_1` FOREIGN KEY (`dept_name`) REFERENCES `department` (`dept_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `doctor`
+--
+
+LOCK TABLES `doctor` WRITE;
+/*!40000 ALTER TABLE `doctor` DISABLE KEYS */;
+INSERT INTO `doctor` VALUES (2013112047,'lee ji yeon',7500,23,'genral surgery'),(2013112048,'jjang gu',6700,24,'dentistry'),(2013112075,'kim hyeong kyu',7000,28,'internal medicine');
+/*!40000 ALTER TABLE `doctor` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `hospital_room`
+--
+
+DROP TABLE IF EXISTS `hospital_room`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `hospital_room` (
+  `room_num` int(11) NOT NULL,
+  `building` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`room_num`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `hospital_room`
+--
+
+LOCK TABLES `hospital_room` WRITE;
+/*!40000 ALTER TABLE `hospital_room` DISABLE KEYS */;
+INSERT INTO `hospital_room` VALUES (101,'101Dong'),(102,'101Dong'),(201,'102Dong'),(202,'102Dong');
+/*!40000 ALTER TABLE `hospital_room` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `medical_certification`
+--
+
+DROP TABLE IF EXISTS `medical_certification`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `medical_certification` (
+  `inspection_bill` int(11) DEFAULT NULL,
+  `inspection_result` varchar(20) DEFAULT NULL,
+  `hospitalization_bills` int(11) DEFAULT NULL,
+  `patient_ID` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `medical_certification`
+--
+
+LOCK TABLES `medical_certification` WRITE;
+/*!40000 ALTER TABLE `medical_certification` DISABLE KEYS */;
+INSERT INTO `medical_certification` VALUES (2000,'need treatment',1000,2012112075),(2000,'need treatment',1000,1012112075),(2000,'need',3000,1111111111);
+/*!40000 ALTER TABLE `medical_certification` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `nulse`
+--
+
+DROP TABLE IF EXISTS `nulse`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `nulse` (
+  `nulse_ID` int(11) NOT NULL,
+  `N_name` varchar(20) DEFAULT NULL,
+  `salary` int(11) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `room_num` int(11) DEFAULT NULL,
+  PRIMARY KEY (`nulse_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `nulse`
+--
+
+LOCK TABLES `nulse` WRITE;
+/*!40000 ALTER TABLE `nulse` DISABLE KEYS */;
+INSERT INTO `nulse` VALUES (301211202,'kim su hyun',6000,28,102),(301211203,'Han gang',6500,26,202),(301211204,'Haykin',7200,32,201),(301211205,'shin dong woo',6800,23,101);
+/*!40000 ALTER TABLE `nulse` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `patient`
+--
+
+DROP TABLE IF EXISTS `patient`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `patient` (
+  `patient_ID` int(11) NOT NULL,
+  `P_name` varchar(20) DEFAULT NULL,
+  `sex` varchar(5) DEFAULT NULL,
+  `disease` varchar(20) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  PRIMARY KEY (`patient_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `patient`
+--
+
+LOCK TABLES `patient` WRITE;
+/*!40000 ALTER TABLE `patient` DISABLE KEYS */;
+INSERT INTO `patient` VALUES (1012112047,'kim seong hyun','M','allergy',25),(1012112048,'kim ho yeong','M','chest pain',25),(1012112049,'kim ho yeong','M',' ',25),(1012112075,'cho seong jae','M','cold',25),(1111111111,'chcoelc','M','cold',14);
+/*!40000 ALTER TABLE `patient` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `treat`
+--
+
+DROP TABLE IF EXISTS `treat`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `treat` (
+  `start_time` int(11) DEFAULT NULL,
+  `end_time` int(11) DEFAULT NULL,
+  `patient_ID` int(11) DEFAULT NULL,
+  `doctor_ID` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `treat`
+--
+
+LOCK TABLES `treat` WRITE;
+/*!40000 ALTER TABLE `treat` DISABLE KEYS */;
+INSERT INTO `treat` VALUES (2,3,2012112047,2013112075),(1,2,2012112075,2013112075),(1,2,2012112048,2013112048),(1,2,1012112075,2013112075),(2,3,1012112075,2013112075),(1,2,1012112048,2013112048),(1,2,1111111111,2013112047),(1231,502,1111111111,101),(1111,1010,1111111111,101);
+/*!40000 ALTER TABLE `treat` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-05-30 23:59:29
